@@ -1,0 +1,195 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 312814770,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericHookClass.beforeTest(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2390646527,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginTestStepDef.afterTest()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Success compose",
+        "description": "",
+        "id": "compose-an-email-via--mail.com;success-compose;valid-data;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1269000718,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I have All Test Data \"serenitytraining@mail.com\" \"Password01\" \"serenitytraining1@mail.com\" \"TestMail\" \"Hello Udemy ..\" for Compose Sceanrio",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serenitytraining@mail.com",
+                  "offset": 22
+                },
+                {
+                  "val": "Password01",
+                  "offset": 50
+                },
+                {
+                  "val": "serenitytraining1@mail.com",
+                  "offset": 63
+                },
+                {
+                  "val": "TestMail",
+                  "offset": 92
+                },
+                {
+                  "val": "Hello Udemy ..",
+                  "offset": 103
+                }
+              ],
+              "location": "ComposeTestStepDef.i_have_All_Test_Data_for_Compose_Sceanrio(String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2758314,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I use Valid \"serenitytraining@mail.com\" and Valid \"Password01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serenitytraining@mail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Password01",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginTestStepDef.i_use_Valid_and_Valid(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116334524128,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform Login Action",
+            "match": {
+              "location": "LoginTestStepDef.i_perform_Login_Action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1920917785,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see my Account Mails",
+            "match": {
+              "location": "ComposeTestStepDef.i_should_see_my_Account_Mails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36608267225,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I compose an email to \"serenitytraining1@mail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "serenitytraining1@mail.com",
+                  "offset": 23
+                }
+              ],
+              "location": "ComposeTestStepDef.i_compose_an_email_to(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7340026388,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Should see a successful mail sent.",
+            "match": {
+              "location": "ComposeTestStepDef.i_Should_see_a_successful_mail_sent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ComposeMail"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@issue:SER-2"
+          },
+          {
+            "name": "@issue:SER-3"
+          },
+          {
+            "name": "@prod"
+          }
+        ]
+      }
+    ],
+    "name": "Compose an Email via  Mail.com",
+    "description": "  As a Valid User\n  I want to compose an mail\n  So that I can ccommincate with my mates",
+    "id": "compose-an-email-via--mail.com",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Compose/composeMail.feature",
+    "tags": [
+      {
+        "name": "@ComposeMail",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 14
+        }
+      },
+      {
+        "name": "@issue:SER-2",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Feature: Compose an Email via  Mail.com
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 204.815 s - in Feature: Compose an Email via  Mail.com

@@ -1,0 +1,13 @@
+net\serenity\bdd\junit\cucumber\steps\LoginTestSteps.class
+net\serenity\bdd\junit\cucumber\model\ComposeData.class
+net\serenity\bdd\junit\cucumber\model\LoginData.class
+net\serenity\bdd\junit\cucumber\stepDef\ComposeTestStepDef.class
+net\serenity\bdd\junit\cucumber\pages\AccountsPage.class
+net\serenity\bdd\junit\cucumber\pages\GenericPageObject.class
+net\serenity\bdd\junit\cucumber\stepDef\GenericDeclarationClass.class
+net\serenity\bdd\junit\cucumber\Runner.class
+net\serenity\bdd\junit\cucumber\stepDef\LoginTestStepDef.class
+net\serenity\bdd\junit\cucumber\pages\ComposePage.class
+net\serenity\bdd\junit\cucumber\stepDef\GenericHookClass.class
+net\serenity\bdd\junit\cucumber\steps\ComposeTestSteps.class
+net\serenity\bdd\junit\cucumber\pages\LoginPage.class
