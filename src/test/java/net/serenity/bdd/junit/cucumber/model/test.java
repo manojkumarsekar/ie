@@ -8,4 +8,9 @@ public class test {
 		hi how are yuou
 
 		fine super
+		
+		merge conlickt
+		conflict
+		asadfs
+		
 }
